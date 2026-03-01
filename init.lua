@@ -10,7 +10,6 @@ vim.cmd([[
 ]])
 
 -- Map <leader>
-
 global.mapleader = ","
 global.maplocalleader = " "
 

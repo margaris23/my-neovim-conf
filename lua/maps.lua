@@ -83,3 +83,8 @@ map("n", "<leader>ff", ":lua vim.lsp.buf.format()<cr>")
 map("n", "gn", ":lua vim.diagnostic.goto_next()<cr>")
 map("n", "gp", ":lua vim.diagnostic.goto_prev()<cr>")
 
+vim.keymap.set('n', '<C-h>', '<Cmd>TmuxNavigateLeft<CR>', { silent = true })
+vim.keymap.set('n', '<C-l>', '<Cmd>TmuxNavigateRight<CR>', { silent = true })
+-- nnoremap <silent> <C-j> <Cmd>NvimTmuxNavigateDown<CR>
+-- nnoremap <silent> <C-k> <Cmd>NvimTmuxNavigateUp<CR>
+-- nnoremap <silent> <C-\> <Cmd>NvimTmuxNavigateLastActive<CR>
